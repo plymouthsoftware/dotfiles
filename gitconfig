@@ -13,6 +13,9 @@
   co = checkout
   pf = push --force-with-lease
   st = status
+  up = !git fetch origin && git rebase origin/master
+  f = fetch --prune
+  cm = commit -m
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
