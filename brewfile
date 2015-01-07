@@ -28,14 +28,14 @@ brew install apg
 # brew install gdk-pixbuf
 # brew install gettext
 # brew install ghostscript
-brew install git --override-system-git
+brew install git --override-system-gitv2
 brew install git-extras
 # brew install glib
 # brew install gobject-introspection
 # brew install gradle
 # brew install hicolor-icon-theme
 # brew install icu4c
-# brew install imagemagick
+brew install imagemagick
 # brew install intltool
 # brew install jbig2dec
 # brew install lame
@@ -49,23 +49,23 @@ brew install git-extras
 # brew install memcached
 # brew install mercurial
 # brew install mogenerator
-# brew install mysql
+brew install mysql
 # brew install nginx
 # brew install node
-# brew install openssl
+brew install openssl
 # brew install ossp-uuid
 # brew install pcre
 # brew install phantomjs
 # brew install pixman
 # brew install pkg-config
 # brew install postgresql8
-# brew install postgresql
+brew install postgresql
 # brew install python
 brew install rbenv
 brew install rbenv-gem-rehash
 brew install rcm
 # brew install readline
-# brew install reattach-to-user-namespace
+brew install reattach-to-user-namespace
 brew install redis
 brew install ruby-build
 # brew install scons
@@ -77,8 +77,8 @@ brew install tree
 # brew install unixodbc
 # brew install v8
 brew install vim --override-system-vi
-# brew install watch
-# brew install wget
+brew install watch
+brew install wget
 # brew install x264
 # brew install xpdf
 # brew install xvid
@@ -89,7 +89,7 @@ brew install vim --override-system-vi
 # ZSH 
 brew install zsh
 brew install zsh-completions
-# brew install zsh-lovers
+brew install zsh-lovers
 brew install zsh-syntax-highlighting
 
 # OS X Apps
@@ -108,8 +108,8 @@ brew cask install insync
 brew cask install sublime-text3
 brew cask install tower
 # brew cask install the-unarchiver
-# brew cask install vagrant
-# brew cask install vmware-fusion
+brew cask install vagrant
+brew cask install vmware-fusion
 # brew cask install vlc
 
 # Fonts
