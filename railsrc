@@ -1,0 +1,4 @@
+# .railsrc
+-B # Skip Bundle
+-d postgresql # Use postgres
+--template=https://gist.githubusercontent.com/cblunt/1042832/raw
