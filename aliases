@@ -9,10 +9,14 @@ alias v="$VISUAL"
 alias b="bundle"
 alias be="bundle exec"
 
+# Tests and Specs
+alias t="bin/ruby -I test"
+
 # Rails
-alias migrate="rake db:migrate db:rollback && rake db:migrate db:test:prepare"
+alias migrate="bin/rake db:migrate db:rollback && rake db:migrate db:test:prepare"
 alias s="rspec"
-alias fs="foreman start"
+alias rk="bin/rake"
+alias fs="bundle exec foreman start"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
