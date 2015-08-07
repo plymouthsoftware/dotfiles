@@ -46,7 +46,7 @@ brew install imagemagick
 # brew install libyaml
 # brew install little-cms2
 # brew install mcrypt
-brew install memcached
+# brew install memcached
 # brew install mercurial
 # brew install mogenerator
 # brew install mysql
@@ -55,7 +55,7 @@ brew install node
 brew install openssl
 # brew install ossp-uuid
 # brew install pcre
-brew install phantomjs
+# brew install phantomjs
 # brew install pixman
 # brew install pkg-config
 # brew install postgresql8
@@ -95,13 +95,13 @@ brew install zsh-syntax-highlighting
 # OS X Apps
 brew cask install alfred
 brew cask install appcleaner
-# brew cask install arq
+brew cask install arq
 # brew cask install cyberduck
 brew cask install dropbox
 brew cask install evernote
 brew cask install google-chrome
 brew cask install google-hangouts
-# brew cask install insync
+brew cask install insync
 # brew cask install kindle
 # brew cask install picasa
 # brew cask install slate
@@ -109,8 +109,8 @@ brew cask install sublime-text3
 # brew cask install tower
 # brew cask install the-unarchiver
 brew cask install vagrant
-# brew cask install vmware-fusion
-brew cask install virtualbox
+brew cask install vmware-fusion
+# brew cask install virtualbox
 # brew cask install vlc
 
 # Fonts
