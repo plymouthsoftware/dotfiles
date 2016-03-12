@@ -14,9 +14,10 @@ alias t="ruby -I test"
 
 # Rails
 alias migrate="bin/rake db:migrate db:rollback && rake db:migrate db:test:prepare"
-alias s="rspec"
+alias s="bundle exec rspec"
 alias rk="bin/rake"
 alias fs="bundle exec foreman start"
+alias rc="bin/rails console"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
