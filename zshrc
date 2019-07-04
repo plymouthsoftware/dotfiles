@@ -96,6 +96,9 @@ _load_settings() {
 }
 _load_settings "$HOME/.zsh/configs"
 
+# Oh My ZSH
+[[ -f ~/.zshrc.oh-my-zsh ]] && source ~/.zshrc.oh-my-zsh
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
