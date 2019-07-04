@@ -49,7 +49,7 @@ export PATH="$HOME/.bin:/usr/local/bin:$PATH"
 
 # load rbenv if available
 if which rbenv &>/dev/null ; then
-  
+
   # rbenv installed by Brewfile
   export RBENV_ROOT=/usr/local/var/rbenv
 

@@ -7,25 +7,13 @@ alias v="$VISUAL"
 
 # Bundler
 alias b="bundle"
-alias be="bundle exec"
-
-# Tests and Specs
-alias t="ruby -I test"
 
 # Rails
-alias migrate="bin/rake db:migrate db:rollback && rake db:migrate db:test:prepare"
-alias s="bundle exec rspec"
-alias rk="bin/rake"
-alias fs="bundle exec foreman start"
-alias rc="bin/rails console"
+alias migrate="bin/rails db:migrate db:rollback db:migrate db:test:prepare"
+alias s="rspec"
 
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
-
-# Docker
-alias dkc='docker-compose'
-alias dkm='docker-machine'
-alias dk='docker'
 
 # Include custom aliases
 if [[ -f ~/.aliases.local ]]; then
