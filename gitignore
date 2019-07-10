@@ -144,3 +144,5 @@ vendor/Pods/
 *.bak
 *.dump
 *.dump.*
+
+docker-compose.local.yml
