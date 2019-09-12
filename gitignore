@@ -146,3 +146,10 @@ vendor/Pods/
 *.dump.*
 
 docker-compose.local.yml
+
+# Ignore Keystore files
+*.jks
+*.keystore
+*.pem
+signing.properties
+
